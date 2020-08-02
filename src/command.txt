@@ -1,0 +1,2 @@
+python -m ad_examples.aad.precomputed_aad --startcol=2 --labelindex=1 --header --dataset=ionosphere --datafile=./ad_examples/datasets/ionosphere.csv --scoresfile=./ad_examples/datasets/ionosphere_scores.csv --querytype=1 --detector_type=14 --constrainttype=4 --sigma2=0.5 --budget=200 --tau=0.03 --Ca=1 --Cn=1 --Cx=1 --withprior --unifprior --init=1 --runtype=simple --log_file=./temp/ionosphere.log --debug --maxbudget=200 --randseed=0
+python main.py thyroid
